@@ -229,6 +229,8 @@ Overloading
 
 Overloading is very simple. Just declare the method with different parameters and use any of them::
 
+    from libcpp import bool
+
     cdef extern from "Foo.h":
         cdef cppclass Foo:
             Foo(int)
